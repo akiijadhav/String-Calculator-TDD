@@ -13,4 +13,9 @@ describe("String Calculator - add(string)", () => {
     test("returns the sum for two numbers", () => {
         expect(add("1,5")).toBe(6);
     });
+
+    test("returns the sum for multiple numbers", () => {
+        expect(add("1,2,3,4,5")).toBe(15);
+        expect(add("10,20,30")).toBe(60);
+    });
 });
