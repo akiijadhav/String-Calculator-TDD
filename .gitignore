@@ -7,11 +7,6 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
-# Build output
-dist/
-build/
-out/
-
 # Environment files
 .env
 .env.*.local
@@ -23,3 +18,8 @@ out/
 # OS-specific files
 .DS_Store
 Thumbs.db
+
+# Test coverage reports
+coverage/
+*.lcov
+*.html
